@@ -7,5 +7,6 @@ describe("Test Suit" ,()=>
         cy.get("#contact-us").invoke("removeAttr","target").click()
        cy.get("h2[name='contactme']")
        .should("contain", "CONTACT US")
+       //knvnv
     })
 })
