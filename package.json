@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "C:\\Users\\2017c\\Documents\\CypressAutomation\\node_modules\\.bin\\cypress run"
+    "test": "C:\\Users\\2017c\\Documents\\CypressAutomation\\node_modules\\.bin\\cypress run",
+    "html" : "npx cypress run --spec cypress/e2e/ForJenkin.cy.js --browser chrome --headed"
+
   },
   "author": "haider",
   "license": "ISC",
@@ -16,6 +18,8 @@
   "devDependencies": {
     "cypress-file-upload": "^5.0.8",
     "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.2.3",
+    "cypress-repeat": "^2.3.3",
     "cypress-xpath": "^2.0.1"
   }
 }
