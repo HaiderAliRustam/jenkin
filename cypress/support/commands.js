@@ -23,3 +23,8 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+module.exports = defineConfig
+			  ({
+                     •video:false,
+                     •screenshotsFolder: false,
+			    })
