@@ -5,13 +5,12 @@
   "main": "indeqx.js",
   "scripts": {
     "test": "C:\\Users\\2017c\\Documents\\CypressAutomation\\node_modules\\.bin\\cypress run",
-    "html" : "npx cypress run --spec cypress/e2e/ForJenkin.cy.js --browser chrome --headed"
-
+    "html": "npx cypress run --spec cypress/e2e/ForJenkin.cy.js --browser chrome --headed"
   },
   "author": "haider",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^10.11.0",
+    "cypress": "^9.7.0",
     "mocha": "^10.1.0",
     "mochawesome": "^7.1.3"
   },
