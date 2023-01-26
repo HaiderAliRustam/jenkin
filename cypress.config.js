@@ -6,7 +6,6 @@ module.exports = defineConfig({
   video: false,
   screenshotsFolder: false,
 
-,
 
   e2e: {
     setupNodeEvents(on, config) {
