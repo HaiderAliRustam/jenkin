@@ -6,6 +6,15 @@ module.exports = defineConfig({
   video: false,
   screenshotsFolder: false,
 
+  reporterOptions: {
+    charts: true,
+    reportPageTitle: "Haider-Report",
+    embeddedScreenshots: true,
+    inlineAssets: true,
+    showPassed: false,
+    saveAllAttempts: false,
+  },
+
  
 
   e2e: {
