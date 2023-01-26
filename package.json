@@ -2,7 +2,7 @@
   "name": "cypressautomaion",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "indeqx.js",
   "scripts": {
     "test": "C:\\Users\\2017c\\Documents\\CypressAutomation\\node_modules\\.bin\\cypress run",
     "html" : "npx cypress run --spec cypress/e2e/ForJenkin.cy.js --browser chrome --headed"
