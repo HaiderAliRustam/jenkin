@@ -8,13 +8,17 @@ module.exports = defineConfig({
   reporterOptions: {
     charts: true,
     reportPageTitle: "Haider-Report",
+    reportFilename: "haider",
     embeddedScreenshots: true,
     inlineAssets: true,
-    showPassed: false,
+    showPassed: true,
     saveAllAttempts: false,
+    fileName: "new_report_name",
+    index: "new_index.html"
+    
+    
   },
-
-
+  
 
   e2e: {
 
