@@ -14,7 +14,7 @@ module.exports = defineConfig({
     showPassed: true,
     saveAllAttempts: false,
     fileName: "new_report_name",
-    index: "new_index.html"
+    
     
     
   },
