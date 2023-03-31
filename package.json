@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "C:\\Users\\2017c\\Documents\\CypressAutomation\\node_modules\\.bin\\cypress run",
+    
+    "test": "C:\\Users\\hp\\Documents\\CypressJenkin\\jenkin\\node_modules\\.bin\\cypress run",
     "html": "npx cypress run --spec cypress/e2e/ForJenkin.cy.js --browser chrome --headed"
   },
   "author": "haider",
   "license": "ISC",
   "dependencies": {
+    "cypress": "^12.9.0",
     "mocha": "^10.1.0",
     "mochawesome": "^7.1.3"
   },

@@ -1,6 +1,6 @@
 
 
-//<refrence type ="cypress"/>
+///<refrence type ="cypress"/>
 reporter: 'cypress-mochawesome-reporter',
 describe("Test Jenkin ", ()=>
 {
