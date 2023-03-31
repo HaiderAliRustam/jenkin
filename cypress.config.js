@@ -6,7 +6,9 @@ module.exports = defineConfig({
   video: false,
 
   reporterOptions: {
+    
     charts: true,
+    
     reportPageTitle: "Haider-Report",
     reportFilename: "haider",
     embeddedScreenshots: true,
