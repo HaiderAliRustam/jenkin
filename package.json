@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    
     "test": "C:\\Users\\hp\\Documents\\CypressJenkin\\jenkin\\node_modules\\.bin\\cypress run",
     "html": "npx cypress run --spec cypress/e2e/ForJenkin.cy.js --browser chrome --headed"
   },
@@ -12,15 +11,17 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^12.9.0",
-    "mocha": "^10.1.0",
-    "mochawesome": "^7.1.3"
+    "mocha": "^10.1.0"
   },
   "devDependencies": {
     "cypress-file-upload": "^5.0.8",
     "cypress-iframe": "^1.0.1",
     "cypress-mochawesome-reporter": "^3.2.3",
     "cypress-repeat": "^2.3.3",
-    "cypress-xpath": "^2.0.1"
+    "cypress-xpath": "^2.0.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
   },
   "reporter": "mochawesome",
   "reporterOptions": {
